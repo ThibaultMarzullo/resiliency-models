@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<measure>
+  <schema_version>3.0</schema_version>
+  <name>add_batteries_and_pv</name>
+  <uid>fa85082e-7c41-4b49-a131-6e718dcc330d</uid>
+  <version_id>982065ab-e681-4890-84ea-2fc4ab8457a7</version_id>
+  <version_modified>20220302T162223Z</version_modified>
+  <xml_checksum>907C3AEA</xml_checksum>
+  <class_name>AddBatteriesAndPV</class_name>
+  <display_name>Add Batteries and PV</display_name>
+  <description>Add batteries and PV generation to baseline building.  Add relevant controls.</description>
+  <modeler_description>In an all-electric building, include on-site storage and generation for improved building resiliency.</modeler_description>
+  <arguments>
+    <argument>
+      <name>batt_storage_capacity</name>
+      <display_name>Capacity of the battery bank</display_name>
+      <description>Total capacity of the battery bank in Joules (J)</description>
+      <type>Double</type>
+      <required>true</required>
+      <model_dependent>false</model_dependent>
+    </argument>
+    <argument>
+      <name>batt_discharge_power</name>
+      <display_name>Battery discharge power</display_name>
+      <description>Maximum discharge power in Watts (W)</description>
+      <type>Double</type>
+      <required>true</required>
+      <model_dependent>false</model_dependent>
+    </argument>
+    <argument>
+      <name>batt_charge_power</name>
+      <display_name>Battery charge power</display_name>
+      <description>Maximum charge power in Watts (W)</description>
+      <type>Double</type>
+      <required>true</required>
+      <model_dependent>false</model_dependent>
+    </argument>
+    <argument>
+      <name>batt_initial_charge</name>
+      <display_name>Initial battery charge</display_name>
+      <description>Initial charge of the battery bank in Joules (J)</description>
+      <type>Double</type>
+      <required>true</required>
+      <model_dependent>false</model_dependent>
+    </argument>
+    <argument>
+      <name>pv_total_power</name>
+      <display_name>Total PV power</display_name>
+      <description>Total power output of the PV panels in Watts (W)</description>
+      <type>Double</type>
+      <required>true</required>
+      <model_dependent>false</model_dependent>
+    </argument>
+    <argument>
+      <name>parallel_modules</name>
+      <display_name>Number of PV modules in a series string</display_name>
+      <description>Number of modules</description>
+      <type>Integer</type>
+      <required>true</required>
+      <model_dependent>false</model_dependent>
+    </argument>
+    <argument>
+      <name>series_modules</name>
+      <display_name>Number of PV strings in series</display_name>
+      <description>Number of modules</description>
+      <type>Integer</type>
+      <required>true</required>
+      <model_dependent>false</model_dependent>
+    </argument>
+    <argument>
+      <name>pv_len</name>
+      <display_name>Length of PV array</display_name>
+      <description>In meters (m)</description>
+      <type>Double</type>
+      <required>true</required>
+      <model_dependent>false</model_dependent>
+    </argument>
+    <argument>
+      <name>pv_wid</name>
+      <display_name>Width of PV array</display_name>
+      <description>In meters (m)</description>
+      <type>Double</type>
+      <required>true</required>
+      <model_dependent>false</model_dependent>
+    </argument>
+  </arguments>
+  <outputs />
+  <provenances />
+  <tags>
+    <tag>Onsite Power Generation.Photovoltaic</tag>
+  </tags>
+  <attributes>
+    <attribute>
+      <name>Measure Type</name>
+      <value>EnergyPlusMeasure</value>
+      <datatype>string</datatype>
+    </attribute>
+    <attribute>
+      <name>Intended Software Tool</name>
+      <value>OpenStudio Application</value>
+      <datatype>string</datatype>
+    </attribute>
+    <attribute>
+      <name>Intended Software Tool</name>
+      <value>Parametric Analysis Tool</value>
+      <datatype>string</datatype>
+    </attribute>
+  </attributes>
+  <files>
+    <file>
+      <filename>LICENSE.md</filename>
+      <filetype>md</filetype>
+      <usage_type>license</usage_type>
+      <checksum>CD7F5672</checksum>
+    </file>
+    <file>
+      <filename>README.md.erb</filename>
+      <filetype>erb</filetype>
+      <usage_type>readmeerb</usage_type>
+      <checksum>F1C26127</checksum>
+    </file>
+    <file>
+      <filename>add_batteries_and_pv_test.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>test</usage_type>
+      <checksum>C280951B</checksum>
+    </file>
+    <file>
+      <filename>README.md</filename>
+      <filetype>md</filetype>
+      <usage_type>readme</usage_type>
+      <checksum>8A813EBB</checksum>
+    </file>
+    <file>
+      <version>
+        <software_program>OpenStudio</software_program>
+        <identifier>3.3.0</identifier>
+        <min_compatible>3.3.0</min_compatible>
+      </version>
+      <filename>measure.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>script</usage_type>
+      <checksum>4E94B4D1</checksum>
+    </file>
+  </files>
+</measure>

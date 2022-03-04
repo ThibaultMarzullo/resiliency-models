@@ -1,0 +1,1577 @@
+{
+   "completed_at" : "20220302T162313Z",
+   "completed_status" : "Success",
+   "created_at" : "20220221T223320Z",
+   "current_step" : 2,
+   "eplusout_err" : "Program Version,EnergyPlus, Version 9.6.0-4b123cf80f, YMD=2022.03.02 09:22,\n   ************* Beginning Zone Sizing Calculations\n   ** Warning ** ProcessScheduleInput: Schedule:Compact=\"AIR_VELO_SCH\", Blank Schedule Type Limits Name input -- will not be validated.\n   ** Warning ** ProcessScheduleInput: Schedule:Compact=\"CLOTHING_SCH\", Blank Schedule Type Limits Name input -- will not be validated.\n   ** Warning ** ProcessScheduleInput: Schedule:Compact=\"SHADING_SCH\", Blank Schedule Type Limits Name input -- will not be validated.\n   ** Warning ** ProcessScheduleInput: Schedule:Constant=\"ALWAYS OFF DISCRETE\", Blank Schedule Type Limits Name input -- will not be validated.\n   ** Warning ** ProcessScheduleInput: Schedule:Constant=\"ALWAYS ON CONTINUOUS\", Blank Schedule Type Limits Name input -- will not be validated.\n   ** Warning ** GetHTSurfaceData: Surfaces with interface to Ground found but no \"Ground Temperatures\" were input.\n   **   ~~~   ** Found first in surface=CORE_ZN_FLOOR\n   **   ~~~   ** Defaults, constant throughout the year of (18.0) will be used.\n   ** Warning ** CheckUsedConstructions: There are 44 nominally unused constructions in input.\n   **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;\n   ** Warning ** GetDaylightingControls: Fraction of zone or space controlled by the Daylighting reference points is < 1.0.\n   **   ~~~   ** ..discovered in Daylighting:Controls=\"PERIMETER_ZN_1 DAYLIGHTINGCONTROLS\", only 3.020E-002 of the zone or space is controlled.\n   ** Warning ** GetDaylightingControls: Fraction of zone or space controlled by the Daylighting reference points is < 1.0.\n   **   ~~~   ** ..discovered in Daylighting:Controls=\"PERIMETER_ZN_2 DAYLIGHTINGCONTROLS\", only 3.020E-002 of the zone or space is controlled.\n   ** Warning ** GetDaylightingControls: Fraction of zone or space controlled by the Daylighting reference points is < 1.0.\n   **   ~~~   ** ..discovered in Daylighting:Controls=\"PERIMETER_ZN_3 DAYLIGHTINGCONTROLS\", only 3.020E-002 of the zone or space is controlled.\n   ** Warning ** GetDaylightingControls: Fraction of zone or space controlled by the Daylighting reference points is < 1.0.\n   **   ~~~   ** ..discovered in Daylighting:Controls=\"PERIMETER_ZN_4 DAYLIGHTINGCONTROLS\", only 3.020E-002 of the zone or space is controlled.\n   ** Warning ** GetSimpleAirModelInputs: ZoneInfiltration:DesignFlowRate=\"CORE_ZN 189.1-2009 - OFFICE - WHOLEBUILDING - SM OFFICE - CZ1-3 INFILTRATION\", Design Flow Rate Calculation Method specifies Flow per Exterior Surface Area, but Exterior Surface Area = 0.  0 Infiltration will result.\n   ************* Beginning System Sizing Calculations\n   ** Warning ** ManageSizing: For a plant sizing run, there must be at least 1 Sizing:Plant object input. SimulationControl Plant Sizing option ignored.\n   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation=\"CONTROLLER MECHANICAL VENTILATION 2\n   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone=\"PERIMETER_ZN_1\".\n   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.\n   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation=\"CONTROLLER MECHANICAL VENTILATION 3\n   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone=\"PERIMETER_ZN_2\".\n   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.\n   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation=\"CONTROLLER MECHANICAL VENTILATION 4\n   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone=\"PERIMETER_ZN_3\".\n   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.\n   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation=\"CONTROLLER MECHANICAL VENTILATION 5\n   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone=\"PERIMETER_ZN_4\".\n   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.\n   ** Warning ** Output:Meter: invalid Key Name=\"NATURALGAS:FACILITY\" - not found.\n   ** Warning ** Output:Meter: invalid Key Name=\"DISTRICTCOOLING:FACILITY\" - not found.\n   ** Warning ** Output:Meter: invalid Key Name=\"DISTRICTHEATING:FACILITY\" - not found.\n   ** Warning ** Output:Meter:MeterFileOnly: invalid Key Name=\"NATURALGAS:FACILITY\" - not found.\n   ** Warning ** Output:Meter:MeterFileOnly: invalid Key Name=\"NATURALGAS:FACILITY\" - not found.\n   ** Warning ** Output:Meter:MeterFileOnly requested for \"Electricity:Facility\" (TimeStep), already on \"Output:Meter\". Will report to both eplusout.eso and eplusout.mtr\n   ************* Testing Individual Branch Integrity\n   ************* All Branches passed integrity testing\n   ************* Testing Individual Supply Air Path Integrity\n   ************* All Supply Air Paths passed integrity testing\n   ************* Testing Individual Return Air Path Integrity\n   ************* All Return Air Paths passed integrity testing\n   ************* No node connection errors were found.\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - FUELOILNO1' invalid Variable or Meter Name 'HEATING:FUELOILNO1'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - FUELOILNO1' invalid Variable or Meter Name 'COOLING:FUELOILNO1'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - FUELOILNO1' invalid Variable or Meter Name 'INTERIOR LIGHTING:FUELOILNO1'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - FUELOILNO1' invalid Variable or Meter Name 'EXTERIOR LIGHTING:FUELOILNO1'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - FUELOILNO1' invalid Variable or Meter Name 'INTERIOR EQUIPMENT:FUELOILNO1'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - FUELOILNO1' invalid Variable or Meter Name 'EXTERIOR EQUIPMENT:FUELOILNO1'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - FUELOILNO1' invalid Variable or Meter Name 'FANS:FUELOILNO1'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - FUELOILNO1' invalid Variable or Meter Name 'PUMPS:FUELOILNO1'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - FUELOILNO1' invalid Variable or Meter Name 'HEAT REJECTION:FUELOILNO1'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - FUELOILNO1' invalid Variable or Meter Name 'HUMIDIFICATION:FUELOILNO1'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - FUELOILNO1' invalid Variable or Meter Name 'HEAT RECOVERY:FUELOILNO1'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - FUELOILNO1' invalid Variable or Meter Name 'WATER SYSTEMS:FUELOILNO1'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - FUELOILNO1' invalid Variable or Meter Name 'REFRIGERATION:FUELOILNO1'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - FUELOILNO1' invalid Variable or Meter Name 'GENERATORS:FUELOILNO1'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - FUELOILNO2' invalid Variable or Meter Name 'HEATING:FUELOILNO2'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - FUELOILNO2' invalid Variable or Meter Name 'COOLING:FUELOILNO2'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - FUELOILNO2' invalid Variable or Meter Name 'INTERIOR LIGHTING:FUELOILNO2'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - FUELOILNO2' invalid Variable or Meter Name 'EXTERIOR LIGHTING:FUELOILNO2'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - FUELOILNO2' invalid Variable or Meter Name 'INTERIOR EQUIPMENT:FUELOILNO2'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - FUELOILNO2' invalid Variable or Meter Name 'EXTERIOR EQUIPMENT:FUELOILNO2'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - FUELOILNO2' invalid Variable or Meter Name 'FANS:FUELOILNO2'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - FUELOILNO2' invalid Variable or Meter Name 'PUMPS:FUELOILNO2'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - FUELOILNO2' invalid Variable or Meter Name 'HEAT REJECTION:FUELOILNO2'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - FUELOILNO2' invalid Variable or Meter Name 'HUMIDIFICATION:FUELOILNO2'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - FUELOILNO2' invalid Variable or Meter Name 'HEAT RECOVERY:FUELOILNO2'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - FUELOILNO2' invalid Variable or Meter Name 'WATER SYSTEMS:FUELOILNO2'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - FUELOILNO2' invalid Variable or Meter Name 'REFRIGERATION:FUELOILNO2'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - FUELOILNO2' invalid Variable or Meter Name 'GENERATORS:FUELOILNO2'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - PROPANEGAS' invalid Variable or Meter Name 'HEATING:PROPANEGAS'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - PROPANEGAS' invalid Variable or Meter Name 'COOLING:PROPANEGAS'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - PROPANEGAS' invalid Variable or Meter Name 'INTERIOR LIGHTING:PROPANEGAS'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - PROPANEGAS' invalid Variable or Meter Name 'EXTERIOR LIGHTING:PROPANEGAS'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - PROPANEGAS' invalid Variable or Meter Name 'INTERIOR EQUIPMENT:PROPANEGAS'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - PROPANEGAS' invalid Variable or Meter Name 'EXTERIOR EQUIPMENT:PROPANEGAS'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - PROPANEGAS' invalid Variable or Meter Name 'FANS:PROPANEGAS'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - PROPANEGAS' invalid Variable or Meter Name 'PUMPS:PROPANEGAS'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - PROPANEGAS' invalid Variable or Meter Name 'HEAT REJECTION:PROPANEGAS'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - PROPANEGAS' invalid Variable or Meter Name 'HUMIDIFICATION:PROPANEGAS'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - PROPANEGAS' invalid Variable or Meter Name 'HEAT RECOVERY:PROPANEGAS'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - PROPANEGAS' invalid Variable or Meter Name 'WATER SYSTEMS:PROPANEGAS'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - PROPANEGAS' invalid Variable or Meter Name 'REFRIGERATION:PROPANEGAS'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - PROPANEGAS' invalid Variable or Meter Name 'GENERATORS:PROPANEGAS'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - COAL' invalid Variable or Meter Name 'HEATING:COAL'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - COAL' invalid Variable or Meter Name 'COOLING:COAL'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - COAL' invalid Variable or Meter Name 'INTERIOR LIGHTING:COAL'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - COAL' invalid Variable or Meter Name 'EXTERIOR LIGHTING:COAL'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - COAL' invalid Variable or Meter Name 'INTERIOR EQUIPMENT:COAL'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - COAL' invalid Variable or Meter Name 'EXTERIOR EQUIPMENT:COAL'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - COAL' invalid Variable or Meter Name 'FANS:COAL'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - COAL' invalid Variable or Meter Name 'PUMPS:COAL'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - COAL' invalid Variable or Meter Name 'HEAT REJECTION:COAL'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - COAL' invalid Variable or Meter Name 'HUMIDIFICATION:COAL'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - COAL' invalid Variable or Meter Name 'HEAT RECOVERY:COAL'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - COAL' invalid Variable or Meter Name 'WATER SYSTEMS:COAL'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - COAL' invalid Variable or Meter Name 'REFRIGERATION:COAL'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - COAL' invalid Variable or Meter Name 'GENERATORS:COAL'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DIESEL' invalid Variable or Meter Name 'HEATING:DIESEL'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DIESEL' invalid Variable or Meter Name 'COOLING:DIESEL'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DIESEL' invalid Variable or Meter Name 'INTERIOR LIGHTING:DIESEL'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DIESEL' invalid Variable or Meter Name 'EXTERIOR LIGHTING:DIESEL'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DIESEL' invalid Variable or Meter Name 'INTERIOR EQUIPMENT:DIESEL'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DIESEL' invalid Variable or Meter Name 'EXTERIOR EQUIPMENT:DIESEL'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DIESEL' invalid Variable or Meter Name 'FANS:DIESEL'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DIESEL' invalid Variable or Meter Name 'PUMPS:DIESEL'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DIESEL' invalid Variable or Meter Name 'HEAT REJECTION:DIESEL'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DIESEL' invalid Variable or Meter Name 'HUMIDIFICATION:DIESEL'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DIESEL' invalid Variable or Meter Name 'HEAT RECOVERY:DIESEL'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DIESEL' invalid Variable or Meter Name 'WATER SYSTEMS:DIESEL'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DIESEL' invalid Variable or Meter Name 'REFRIGERATION:DIESEL'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DIESEL' invalid Variable or Meter Name 'GENERATORS:DIESEL'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - GASOLINE' invalid Variable or Meter Name 'HEATING:GASOLINE'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - GASOLINE' invalid Variable or Meter Name 'COOLING:GASOLINE'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - GASOLINE' invalid Variable or Meter Name 'INTERIOR LIGHTING:GASOLINE'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - GASOLINE' invalid Variable or Meter Name 'EXTERIOR LIGHTING:GASOLINE'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - GASOLINE' invalid Variable or Meter Name 'INTERIOR EQUIPMENT:GASOLINE'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - GASOLINE' invalid Variable or Meter Name 'EXTERIOR EQUIPMENT:GASOLINE'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - GASOLINE' invalid Variable or Meter Name 'FANS:GASOLINE'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - GASOLINE' invalid Variable or Meter Name 'PUMPS:GASOLINE'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - GASOLINE' invalid Variable or Meter Name 'HEAT REJECTION:GASOLINE'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - GASOLINE' invalid Variable or Meter Name 'HUMIDIFICATION:GASOLINE'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - GASOLINE' invalid Variable or Meter Name 'HEAT RECOVERY:GASOLINE'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - GASOLINE' invalid Variable or Meter Name 'WATER SYSTEMS:GASOLINE'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - GASOLINE' invalid Variable or Meter Name 'REFRIGERATION:GASOLINE'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - GASOLINE' invalid Variable or Meter Name 'GENERATORS:GASOLINE'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - OTHERFUEL1' invalid Variable or Meter Name 'HEATING:OTHERFUEL1'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - OTHERFUEL1' invalid Variable or Meter Name 'COOLING:OTHERFUEL1'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - OTHERFUEL1' invalid Variable or Meter Name 'INTERIOR LIGHTING:OTHERFUEL1'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - OTHERFUEL1' invalid Variable or Meter Name 'EXTERIOR LIGHTING:OTHERFUEL1'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - OTHERFUEL1' invalid Variable or Meter Name 'INTERIOR EQUIPMENT:OTHERFUEL1'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - OTHERFUEL1' invalid Variable or Meter Name 'EXTERIOR EQUIPMENT:OTHERFUEL1'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - OTHERFUEL1' invalid Variable or Meter Name 'FANS:OTHERFUEL1'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - OTHERFUEL1' invalid Variable or Meter Name 'PUMPS:OTHERFUEL1'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - OTHERFUEL1' invalid Variable or Meter Name 'HEAT REJECTION:OTHERFUEL1'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - OTHERFUEL1' invalid Variable or Meter Name 'HUMIDIFICATION:OTHERFUEL1'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - OTHERFUEL1' invalid Variable or Meter Name 'HEAT RECOVERY:OTHERFUEL1'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - OTHERFUEL1' invalid Variable or Meter Name 'WATER SYSTEMS:OTHERFUEL1'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - OTHERFUEL1' invalid Variable or Meter Name 'REFRIGERATION:OTHERFUEL1'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - OTHERFUEL1' invalid Variable or Meter Name 'GENERATORS:OTHERFUEL1'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - OTHERFUEL2' invalid Variable or Meter Name 'HEATING:OTHERFUEL2'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - OTHERFUEL2' invalid Variable or Meter Name 'COOLING:OTHERFUEL2'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - OTHERFUEL2' invalid Variable or Meter Name 'INTERIOR LIGHTING:OTHERFUEL2'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - OTHERFUEL2' invalid Variable or Meter Name 'EXTERIOR LIGHTING:OTHERFUEL2'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - OTHERFUEL2' invalid Variable or Meter Name 'INTERIOR EQUIPMENT:OTHERFUEL2'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - OTHERFUEL2' invalid Variable or Meter Name 'EXTERIOR EQUIPMENT:OTHERFUEL2'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - OTHERFUEL2' invalid Variable or Meter Name 'FANS:OTHERFUEL2'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - OTHERFUEL2' invalid Variable or Meter Name 'PUMPS:OTHERFUEL2'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - OTHERFUEL2' invalid Variable or Meter Name 'HEAT REJECTION:OTHERFUEL2'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - OTHERFUEL2' invalid Variable or Meter Name 'HUMIDIFICATION:OTHERFUEL2'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - OTHERFUEL2' invalid Variable or Meter Name 'HEAT RECOVERY:OTHERFUEL2'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - OTHERFUEL2' invalid Variable or Meter Name 'WATER SYSTEMS:OTHERFUEL2'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - OTHERFUEL2' invalid Variable or Meter Name 'REFRIGERATION:OTHERFUEL2'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - OTHERFUEL2' invalid Variable or Meter Name 'GENERATORS:OTHERFUEL2'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - ELECTRICITY' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:ELECTRICITY'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - ELECTRICITY' invalid Variable or Meter Name 'PUMPS:ELECTRICITY'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - ELECTRICITY' invalid Variable or Meter Name 'HEATREJECTION:ELECTRICITY'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - ELECTRICITY' invalid Variable or Meter Name 'HUMIDIFIER:ELECTRICITY'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - ELECTRICITY' invalid Variable or Meter Name 'HEATRECOVERY:ELECTRICITY'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - ELECTRICITY' invalid Variable or Meter Name 'WATERSYSTEMS:ELECTRICITY'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - ELECTRICITY' invalid Variable or Meter Name 'REFRIGERATION:ELECTRICITY'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - NATURAL GAS' invalid Variable or Meter Name 'INTERIOREQUIPMENT:NATURALGAS'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - NATURAL GAS' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:NATURALGAS'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - NATURAL GAS' invalid Variable or Meter Name 'HEATING:NATURALGAS'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - NATURAL GAS' invalid Variable or Meter Name 'COOLING:NATURALGAS'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - NATURAL GAS' invalid Variable or Meter Name 'WATERSYSTEMS:NATURALGAS'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - NATURAL GAS' invalid Variable or Meter Name 'COGENERATION:NATURALGAS'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING' invalid Variable or Meter Name 'INTERIORLIGHTS:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING' invalid Variable or Meter Name 'EXTERIORLIGHTS:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING' invalid Variable or Meter Name 'INTERIOREQUIPMENT:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING' invalid Variable or Meter Name 'FANS:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING' invalid Variable or Meter Name 'PUMPS:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING' invalid Variable or Meter Name 'HEATING:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING' invalid Variable or Meter Name 'COOLING:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING' invalid Variable or Meter Name 'HEATREJECTION:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING' invalid Variable or Meter Name 'HUMIDIFIER:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING' invalid Variable or Meter Name 'HEATRECOVERY:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING' invalid Variable or Meter Name 'WATERSYSTEMS:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING' invalid Variable or Meter Name 'COGENERATION:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING' invalid Variable or Meter Name 'INTERIORLIGHTS:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING' invalid Variable or Meter Name 'EXTERIORLIGHTS:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING' invalid Variable or Meter Name 'INTERIOREQUIPMENT:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING' invalid Variable or Meter Name 'FANS:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING' invalid Variable or Meter Name 'PUMPS:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING' invalid Variable or Meter Name 'HEATING:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING' invalid Variable or Meter Name 'COOLING:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING' invalid Variable or Meter Name 'HEATREJECTION:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING' invalid Variable or Meter Name 'HUMIDIFIER:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING' invalid Variable or Meter Name 'HEATRECOVERY:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING' invalid Variable or Meter Name 'WATERSYSTEMS:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING' invalid Variable or Meter Name 'COGENERATION:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - ELECTRICITY PEAK DEMAND' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:ELECTRICITY'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - ELECTRICITY PEAK DEMAND' invalid Variable or Meter Name 'PUMPS:ELECTRICITY'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - ELECTRICITY PEAK DEMAND' invalid Variable or Meter Name 'HEATREJECTION:ELECTRICITY'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - ELECTRICITY PEAK DEMAND' invalid Variable or Meter Name 'HUMIDIFIER:ELECTRICITY'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - ELECTRICITY PEAK DEMAND' invalid Variable or Meter Name 'HEATRECOVERY:ELECTRICITY'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - ELECTRICITY PEAK DEMAND' invalid Variable or Meter Name 'WATERSYSTEMS:ELECTRICITY'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - NATURAL GAS PEAK DEMAND' invalid Variable or Meter Name 'NATURALGAS:FACILITY'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - NATURAL GAS PEAK DEMAND' invalid Variable or Meter Name 'INTERIOREQUIPMENT:NATURALGAS'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - NATURAL GAS PEAK DEMAND' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:NATURALGAS'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - NATURAL GAS PEAK DEMAND' invalid Variable or Meter Name 'HEATING:NATURALGAS'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - NATURAL GAS PEAK DEMAND' invalid Variable or Meter Name 'COOLING:NATURALGAS'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - NATURAL GAS PEAK DEMAND' invalid Variable or Meter Name 'WATERSYSTEMS:NATURALGAS'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - NATURAL GAS PEAK DEMAND' invalid Variable or Meter Name 'COGENERATION:NATURALGAS'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING PEAK DEMAND' invalid Variable or Meter Name 'DISTRICTHEATING:FACILITY'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING PEAK DEMAND' invalid Variable or Meter Name 'INTERIORLIGHTS:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING PEAK DEMAND' invalid Variable or Meter Name 'EXTERIORLIGHTS:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING PEAK DEMAND' invalid Variable or Meter Name 'INTERIOREQUIPMENT:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING PEAK DEMAND' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING PEAK DEMAND' invalid Variable or Meter Name 'FANS:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING PEAK DEMAND' invalid Variable or Meter Name 'PUMPS:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING PEAK DEMAND' invalid Variable or Meter Name 'HEATING:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING PEAK DEMAND' invalid Variable or Meter Name 'COOLING:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING PEAK DEMAND' invalid Variable or Meter Name 'HEATREJECTION:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING PEAK DEMAND' invalid Variable or Meter Name 'HUMIDIFIER:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING PEAK DEMAND' invalid Variable or Meter Name 'HEATRECOVERY:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING PEAK DEMAND' invalid Variable or Meter Name 'WATERSYSTEMS:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING PEAK DEMAND' invalid Variable or Meter Name 'COGENERATION:DISTRICTHEATING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING PEAK DEMAND' invalid Variable or Meter Name 'DISTRICTCOOLING:FACILITY'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING PEAK DEMAND' invalid Variable or Meter Name 'INTERIORLIGHTS:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING PEAK DEMAND' invalid Variable or Meter Name 'EXTERIORLIGHTS:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING PEAK DEMAND' invalid Variable or Meter Name 'INTERIOREQUIPMENT:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING PEAK DEMAND' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING PEAK DEMAND' invalid Variable or Meter Name 'FANS:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING PEAK DEMAND' invalid Variable or Meter Name 'PUMPS:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING PEAK DEMAND' invalid Variable or Meter Name 'HEATING:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING PEAK DEMAND' invalid Variable or Meter Name 'COOLING:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING PEAK DEMAND' invalid Variable or Meter Name 'HEATREJECTION:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING PEAK DEMAND' invalid Variable or Meter Name 'HUMIDIFIER:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING PEAK DEMAND' invalid Variable or Meter Name 'HEATRECOVERY:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING PEAK DEMAND' invalid Variable or Meter Name 'WATERSYSTEMS:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING PEAK DEMAND' invalid Variable or Meter Name 'COGENERATION:DISTRICTCOOLING'\n   ** Warning ** In Output:Table:Monthly 'SpaceGainsMonthly' invalid Variable or Meter Name 'ZONE GAS EQUIPMENT TOTAL HEATING ENERGY'\n   ** Warning ** In Output:Table:Monthly 'SpaceGainsMonthly' invalid Variable or Meter Name 'ZONE HOT WATER EQUIPMENT TOTAL HEATING ENERGY'\n   ** Warning ** In Output:Table:Monthly 'SpaceGainsMonthly' invalid Variable or Meter Name 'ZONE STEAM EQUIPMENT TOTAL HEATING ENERGY'\n   ** Warning ** In Output:Table:Monthly 'SpaceGainsMonthly' invalid Variable or Meter Name 'ZONE OTHER EQUIPMENT TOTAL HEATING ENERGY'\n   ** Warning ** In Output:Table:Monthly 'PeakSpaceGainsMonthly' invalid Variable or Meter Name 'ZONE GAS EQUIPMENT TOTAL HEATING ENERGY'\n   ** Warning ** In Output:Table:Monthly 'PeakSpaceGainsMonthly' invalid Variable or Meter Name 'ZONE HOT WATER EQUIPMENT TOTAL HEATING ENERGY'\n   ** Warning ** In Output:Table:Monthly 'PeakSpaceGainsMonthly' invalid Variable or Meter Name 'ZONE STEAM EQUIPMENT TOTAL HEATING ENERGY'\n   ** Warning ** In Output:Table:Monthly 'PeakSpaceGainsMonthly' invalid Variable or Meter Name 'ZONE OTHER EQUIPMENT TOTAL HEATING ENERGY'\n   ** Warning ** In Output:Table:Monthly 'SpaceGainComponentsAtCoolingPeakMonthly' invalid Variable or Meter Name 'ZONE GAS EQUIPMENT TOTAL HEATING ENERGY'\n   ** Warning ** In Output:Table:Monthly 'SpaceGainComponentsAtCoolingPeakMonthly' invalid Variable or Meter Name 'ZONE HOT WATER EQUIPMENT TOTAL HEATING ENERGY'\n   ** Warning ** In Output:Table:Monthly 'SpaceGainComponentsAtCoolingPeakMonthly' invalid Variable or Meter Name 'ZONE STEAM EQUIPMENT TOTAL HEATING ENERGY'\n   ** Warning ** In Output:Table:Monthly 'SpaceGainComponentsAtCoolingPeakMonthly' invalid Variable or Meter Name 'ZONE OTHER EQUIPMENT TOTAL HEATING ENERGY'\n   ** Warning ** In Output:Table:Monthly 'EnergyConsumptionElectricityNaturalGasMonthly' invalid Variable or Meter Name 'NATURALGAS:FACILITY'\n   ** Warning ** In Output:Table:Monthly 'EnergyConsumptionElectricityNaturalGasMonthly' invalid Variable or Meter Name 'NATURALGAS:FACILITY'\n   ** Warning ** In Output:Table:Monthly 'EnergyConsumptionElectricityGeneratedPropaneMonthly' invalid Variable or Meter Name 'PROPANE:FACILITY'\n   ** Warning ** In Output:Table:Monthly 'EnergyConsumptionElectricityGeneratedPropaneMonthly' invalid Variable or Meter Name 'PROPANE:FACILITY'\n   ** Warning ** In Output:Table:Monthly 'EnergyConsumptionDieselFuelOilMonthly' invalid Variable or Meter Name 'DIESEL:FACILITY'\n   ** Warning ** In Output:Table:Monthly 'EnergyConsumptionDieselFuelOilMonthly' invalid Variable or Meter Name 'DIESEL:FACILITY'\n   ** Warning ** In Output:Table:Monthly 'EnergyConsumptionDieselFuelOilMonthly' invalid Variable or Meter Name 'FUELOILNO1:FACILITY'\n   ** Warning ** In Output:Table:Monthly 'EnergyConsumptionDieselFuelOilMonthly' invalid Variable or Meter Name 'FUELOILNO1:FACILITY'\n   ** Warning ** In Output:Table:Monthly 'EnergyConsumptionDieselFuelOilMonthly' invalid Variable or Meter Name 'FUELOILNO2:FACILITY'\n   ** Warning ** In Output:Table:Monthly 'EnergyConsumptionDieselFuelOilMonthly' invalid Variable or Meter Name 'FUELOILNO2:FACILITY'\n   ** Warning ** In Output:Table:Monthly 'EnergyConsumptionDistrictHeatingCoolingMonthly' invalid Variable or Meter Name 'DISTRICTCOOLING:FACILITY'\n   ** Warning ** In Output:Table:Monthly 'EnergyConsumptionDistrictHeatingCoolingMonthly' invalid Variable or Meter Name 'DISTRICTCOOLING:FACILITY'\n   ** Warning ** In Output:Table:Monthly 'EnergyConsumptionDistrictHeatingCoolingMonthly' invalid Variable or Meter Name 'DISTRICTHEATING:FACILITY'\n   ** Warning ** In Output:Table:Monthly 'EnergyConsumptionDistrictHeatingCoolingMonthly' invalid Variable or Meter Name 'DISTRICTHEATING:FACILITY'\n   ** Warning ** In Output:Table:Monthly 'EnergyConsumptionCoalGasolineMonthly' invalid Variable or Meter Name 'COAL:FACILITY'\n   ** Warning ** In Output:Table:Monthly 'EnergyConsumptionCoalGasolineMonthly' invalid Variable or Meter Name 'COAL:FACILITY'\n   ** Warning ** In Output:Table:Monthly 'EnergyConsumptionCoalGasolineMonthly' invalid Variable or Meter Name 'GASOLINE:FACILITY'\n   ** Warning ** In Output:Table:Monthly 'EnergyConsumptionCoalGasolineMonthly' invalid Variable or Meter Name 'GASOLINE:FACILITY'\n   ** Warning ** In Output:Table:Monthly 'EnergyConsumptionOtherFuelsMonthly' invalid Variable or Meter Name 'OTHERFUEL1:FACILITY'\n   ** Warning ** In Output:Table:Monthly 'EnergyConsumptionOtherFuelsMonthly' invalid Variable or Meter Name 'OTHERFUEL1:FACILITY'\n   ** Warning ** In Output:Table:Monthly 'EnergyConsumptionOtherFuelsMonthly' invalid Variable or Meter Name 'OTHERFUEL2:FACILITY'\n   ** Warning ** In Output:Table:Monthly 'EnergyConsumptionOtherFuelsMonthly' invalid Variable or Meter Name 'OTHERFUEL2:FACILITY'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionElectricityMonthly' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:ELECTRICITY'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionElectricityMonthly' invalid Variable or Meter Name 'PUMPS:ELECTRICITY'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionElectricityMonthly' invalid Variable or Meter Name 'HEATREJECTION:ELECTRICITY'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionElectricityMonthly' invalid Variable or Meter Name 'HUMIDIFIER:ELECTRICITY'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionElectricityMonthly' invalid Variable or Meter Name 'HEATRECOVERY:ELECTRICITY'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionElectricityMonthly' invalid Variable or Meter Name 'WATERSYSTEMS:ELECTRICITY'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionNaturalGasMonthly' invalid Variable or Meter Name 'INTERIOREQUIPMENT:NATURALGAS'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionNaturalGasMonthly' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:NATURALGAS'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionNaturalGasMonthly' invalid Variable or Meter Name 'HEATING:NATURALGAS'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionNaturalGasMonthly' invalid Variable or Meter Name 'COOLING:NATURALGAS'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionNaturalGasMonthly' invalid Variable or Meter Name 'WATERSYSTEMS:NATURALGAS'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionNaturalGasMonthly' invalid Variable or Meter Name 'COGENERATION:NATURALGAS'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionNaturalGasMonthly' invalid Variable or Meter Name 'HUMIDIFIER:NATURALGAS'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionDieselMonthly' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:DIESEL'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionDieselMonthly' invalid Variable or Meter Name 'COOLING:DIESEL'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionDieselMonthly' invalid Variable or Meter Name 'HEATING:DIESEL'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionDieselMonthly' invalid Variable or Meter Name 'WATERSYSTEMS:DIESEL'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionDieselMonthly' invalid Variable or Meter Name 'COGENERATION:DIESEL'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionFuelOilMonthly' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:FUELOILNO1'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionFuelOilMonthly' invalid Variable or Meter Name 'COOLING:FUELOILNO1'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionFuelOilMonthly' invalid Variable or Meter Name 'HEATING:FUELOILNO1'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionFuelOilMonthly' invalid Variable or Meter Name 'WATERSYSTEMS:FUELOILNO1'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionFuelOilMonthly' invalid Variable or Meter Name 'COGENERATION:FUELOILNO1'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionFuelOilMonthly' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:FUELOILNO2'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionFuelOilMonthly' invalid Variable or Meter Name 'COOLING:FUELOILNO2'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionFuelOilMonthly' invalid Variable or Meter Name 'HEATING:FUELOILNO2'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionFuelOilMonthly' invalid Variable or Meter Name 'WATERSYSTEMS:FUELOILNO2'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionFuelOilMonthly' invalid Variable or Meter Name 'COGENERATION:FUELOILNO2'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionCoalMonthly' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:COAL'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionCoalMonthly' invalid Variable or Meter Name 'HEATING:COAL'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionCoalMonthly' invalid Variable or Meter Name 'WATERSYSTEMS:COAL'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionPropaneMonthly' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:PROPANE'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionPropaneMonthly' invalid Variable or Meter Name 'COOLING:PROPANE'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionPropaneMonthly' invalid Variable or Meter Name 'HEATING:PROPANE'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionPropaneMonthly' invalid Variable or Meter Name 'WATERSYSTEMS:PROPANE'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionPropaneMonthly' invalid Variable or Meter Name 'COGENERATION:PROPANE'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionPropaneMonthly' invalid Variable or Meter Name 'HUMIDIFIER:PROPANE'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionGasolineMonthly' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:GASOLINE'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionGasolineMonthly' invalid Variable or Meter Name 'COOLING:GASOLINE'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionGasolineMonthly' invalid Variable or Meter Name 'HEATING:GASOLINE'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionGasolineMonthly' invalid Variable or Meter Name 'WATERSYSTEMS:GASOLINE'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionGasolineMonthly' invalid Variable or Meter Name 'COGENERATION:GASOLINE'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionOtherFuelsMonthly' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:OTHERFUEL1'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionOtherFuelsMonthly' invalid Variable or Meter Name 'COOLING:OTHERFUEL1'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionOtherFuelsMonthly' invalid Variable or Meter Name 'HEATING:OTHERFUEL1'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionOtherFuelsMonthly' invalid Variable or Meter Name 'WATERSYSTEMS:OTHERFUEL1'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionOtherFuelsMonthly' invalid Variable or Meter Name 'COGENERATION:OTHERFUEL1'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionOtherFuelsMonthly' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:OTHERFUEL2'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionOtherFuelsMonthly' invalid Variable or Meter Name 'COOLING:OTHERFUEL2'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionOtherFuelsMonthly' invalid Variable or Meter Name 'HEATING:OTHERFUEL2'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionOtherFuelsMonthly' invalid Variable or Meter Name 'WATERSYSTEMS:OTHERFUEL2'\n   ** Warning ** In Output:Table:Monthly 'EndUseEnergyConsumptionOtherFuelsMonthly' invalid Variable or Meter Name 'COGENERATION:OTHERFUEL2'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseElectricityPart1Monthly' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:ELECTRICITY'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseElectricityPart1Monthly' invalid Variable or Meter Name 'PUMPS:ELECTRICITY'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseElectricityPart2Monthly' invalid Variable or Meter Name 'HEATREJECTION:ELECTRICITY'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseElectricityPart2Monthly' invalid Variable or Meter Name 'HUMIDIFIER:ELECTRICITY'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseElectricityPart2Monthly' invalid Variable or Meter Name 'HEATRECOVERY:ELECTRICITY'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseElectricityPart2Monthly' invalid Variable or Meter Name 'WATERSYSTEMS:ELECTRICITY'\n   ** Warning ** In Output:Table:Monthly 'ElectricComponentsOfPeakDemandMonthly' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:ELECTRICITY'\n   ** Warning ** In Output:Table:Monthly 'ElectricComponentsOfPeakDemandMonthly' invalid Variable or Meter Name 'PUMPS:ELECTRICITY'\n   ** Warning ** In Output:Table:Monthly 'ElectricComponentsOfPeakDemandMonthly' invalid Variable or Meter Name 'HEATREJECTION:ELECTRICITY'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseNaturalGasMonthly' invalid Variable or Meter Name 'INTERIOREQUIPMENT:NATURALGAS'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseNaturalGasMonthly' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:NATURALGAS'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseNaturalGasMonthly' invalid Variable or Meter Name 'HEATING:NATURALGAS'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseNaturalGasMonthly' invalid Variable or Meter Name 'COOLING:NATURALGAS'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseNaturalGasMonthly' invalid Variable or Meter Name 'WATERSYSTEMS:NATURALGAS'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseNaturalGasMonthly' invalid Variable or Meter Name 'COGENERATION:NATURALGAS'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseDieselMonthly' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:DIESEL'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseDieselMonthly' invalid Variable or Meter Name 'COOLING:DIESEL'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseDieselMonthly' invalid Variable or Meter Name 'HEATING:DIESEL'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseDieselMonthly' invalid Variable or Meter Name 'WATERSYSTEMS:DIESEL'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseDieselMonthly' invalid Variable or Meter Name 'COGENERATION:DIESEL'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseFuelOilMonthly' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:FUELOILNO1'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseFuelOilMonthly' invalid Variable or Meter Name 'COOLING:FUELOILNO1'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseFuelOilMonthly' invalid Variable or Meter Name 'HEATING:FUELOILNO1'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseFuelOilMonthly' invalid Variable or Meter Name 'WATERSYSTEMS:FUELOILNO1'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseFuelOilMonthly' invalid Variable or Meter Name 'COGENERATION:FUELOILNO1'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseFuelOilMonthly' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:FUELOILNO2'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseFuelOilMonthly' invalid Variable or Meter Name 'COOLING:FUELOILNO2'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseFuelOilMonthly' invalid Variable or Meter Name 'HEATING:FUELOILNO2'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseFuelOilMonthly' invalid Variable or Meter Name 'WATERSYSTEMS:FUELOILNO2'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseFuelOilMonthly' invalid Variable or Meter Name 'COGENERATION:FUELOILNO2'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseCoalMonthly' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:COAL'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseCoalMonthly' invalid Variable or Meter Name 'HEATING:COAL'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseCoalMonthly' invalid Variable or Meter Name 'WATERSYSTEMS:COAL'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUsePropaneMonthly' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:PROPANE'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUsePropaneMonthly' invalid Variable or Meter Name 'COOLING:PROPANE'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUsePropaneMonthly' invalid Variable or Meter Name 'HEATING:PROPANE'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUsePropaneMonthly' invalid Variable or Meter Name 'WATERSYSTEMS:PROPANE'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUsePropaneMonthly' invalid Variable or Meter Name 'COGENERATION:PROPANE'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseGasolineMonthly' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:GASOLINE'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseGasolineMonthly' invalid Variable or Meter Name 'COOLING:GASOLINE'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseGasolineMonthly' invalid Variable or Meter Name 'HEATING:GASOLINE'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseGasolineMonthly' invalid Variable or Meter Name 'WATERSYSTEMS:GASOLINE'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseGasolineMonthly' invalid Variable or Meter Name 'COGENERATION:GASOLINE'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseOtherFuelsMonthly' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:OTHERFUEL1'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseOtherFuelsMonthly' invalid Variable or Meter Name 'COOLING:OTHERFUEL1'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseOtherFuelsMonthly' invalid Variable or Meter Name 'HEATING:OTHERFUEL1'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseOtherFuelsMonthly' invalid Variable or Meter Name 'WATERSYSTEMS:OTHERFUEL1'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseOtherFuelsMonthly' invalid Variable or Meter Name 'COGENERATION:OTHERFUEL1'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseOtherFuelsMonthly' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:OTHERFUEL2'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseOtherFuelsMonthly' invalid Variable or Meter Name 'COOLING:OTHERFUEL2'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseOtherFuelsMonthly' invalid Variable or Meter Name 'HEATING:OTHERFUEL2'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseOtherFuelsMonthly' invalid Variable or Meter Name 'WATERSYSTEMS:OTHERFUEL2'\n   ** Warning ** In Output:Table:Monthly 'PeakEnergyEndUseOtherFuelsMonthly' invalid Variable or Meter Name 'COGENERATION:OTHERFUEL2'\n   ** Warning ** In Output:Table:Monthly 'UnglazedTranspiredSolarCollectorSummaryMonthly' invalid Variable or Meter Name 'SOLAR COLLECTOR SYSTEM EFFICIENCY'\n   ** Warning ** In Output:Table:Monthly 'UnglazedTranspiredSolarCollectorSummaryMonthly' invalid Variable or Meter Name 'SOLAR COLLECTOR SYSTEM EFFICIENCY'\n   ** Warning ** In Output:Table:Monthly 'UnglazedTranspiredSolarCollectorSummaryMonthly' invalid Variable or Meter Name 'SOLAR COLLECTOR OUTSIDE FACE SUCTION VELOCITY'\n   ** Warning ** In Output:Table:Monthly 'UnglazedTranspiredSolarCollectorSummaryMonthly' invalid Variable or Meter Name 'SOLAR COLLECTOR SENSIBLE HEATING RATE'\n   ** Warning ** In Output:Table:Monthly 'OccupantComfortDataSummaryMonthly' invalid Variable or Meter Name 'ZONE THERMAL COMFORT FANGER MODEL PMV'\n   ** Warning ** In Output:Table:Monthly 'OccupantComfortDataSummaryMonthly' invalid Variable or Meter Name 'ZONE THERMAL COMFORT FANGER MODEL PPD'\n   ** Warning ** In Output:Table:Monthly 'ChillerReportMonthly' invalid Variable or Meter Name 'CHILLER ELECTRICITY ENERGY'\n   ** Warning ** In Output:Table:Monthly 'ChillerReportMonthly' invalid Variable or Meter Name 'CHILLER ELECTRICITY RATE'\n   ** Warning ** In Output:Table:Monthly 'ChillerReportMonthly' invalid Variable or Meter Name 'CHILLER ELECTRICITY ENERGY'\n   ** Warning ** In Output:Table:Monthly 'ChillerReportMonthly' invalid Variable or Meter Name 'CHILLER EVAPORATOR COOLING ENERGY'\n   ** Warning ** In Output:Table:Monthly 'ChillerReportMonthly' invalid Variable or Meter Name 'CHILLER EVAPORATOR COOLING RATE'\n   ** Warning ** In Output:Table:Monthly 'ChillerReportMonthly' invalid Variable or Meter Name 'CHILLER CONDENSER HEAT TRANSFER ENERGY'\n   ** Warning ** In Output:Table:Monthly 'ChillerReportMonthly' invalid Variable or Meter Name 'CHILLER COP'\n   ** Warning ** In Output:Table:Monthly 'ChillerReportMonthly' invalid Variable or Meter Name 'CHILLER COP'\n   ** Warning ** In Output:Table:Monthly 'ChillerReportMonthly' invalid Variable or Meter Name 'CHILLER PART LOAD RATIO'\n   ** Warning ** In Output:Table:Monthly 'ChillerReportMonthly' invalid Variable or Meter Name 'CHILLER PART LOAD RATIO'\n   ** Warning ** In Output:Table:Monthly 'TowerReportMonthly' invalid Variable or Meter Name 'COOLING TOWER FAN ELECTRICITY ENERGY'\n   ** Warning ** In Output:Table:Monthly 'TowerReportMonthly' invalid Variable or Meter Name 'COOLING TOWER FAN ELECTRICITY ENERGY'\n   ** Warning ** In Output:Table:Monthly 'TowerReportMonthly' invalid Variable or Meter Name 'COOLING TOWER FAN ELECTRICITY RATE'\n   ** Warning ** In Output:Table:Monthly 'TowerReportMonthly' invalid Variable or Meter Name 'COOLING TOWER HEAT TRANSFER RATE'\n   ** Warning ** In Output:Table:Monthly 'TowerReportMonthly' invalid Variable or Meter Name 'COOLING TOWER INLET TEMPERATURE'\n   ** Warning ** In Output:Table:Monthly 'TowerReportMonthly' invalid Variable or Meter Name 'COOLING TOWER OUTLET TEMPERATURE'\n   ** Warning ** In Output:Table:Monthly 'TowerReportMonthly' invalid Variable or Meter Name 'COOLING TOWER MASS FLOW RATE'\n   ** Warning ** In Output:Table:Monthly 'BoilerReportMonthly' invalid Variable or Meter Name 'BOILER HEATING ENERGY'\n   ** Warning ** In Output:Table:Monthly 'BoilerReportMonthly' invalid Variable or Meter Name 'BOILER GAS CONSUMPTION'\n   ** Warning ** In Output:Table:Monthly 'BoilerReportMonthly' invalid Variable or Meter Name 'BOILER HEATING ENERGY'\n   ** Warning ** In Output:Table:Monthly 'BoilerReportMonthly' invalid Variable or Meter Name 'BOILER HEATING RATE'\n   ** Warning ** In Output:Table:Monthly 'BoilerReportMonthly' invalid Variable or Meter Name 'BOILER GAS CONSUMPTION RATE'\n   ** Warning ** In Output:Table:Monthly 'BoilerReportMonthly' invalid Variable or Meter Name 'BOILER INLET TEMPERATURE'\n   ** Warning ** In Output:Table:Monthly 'BoilerReportMonthly' invalid Variable or Meter Name 'BOILER OUTLET TEMPERATURE'\n   ** Warning ** In Output:Table:Monthly 'BoilerReportMonthly' invalid Variable or Meter Name 'BOILER MASS FLOW RATE'\n   ** Warning ** In Output:Table:Monthly 'BoilerReportMonthly' invalid Variable or Meter Name 'BOILER ANCILLARY ELECTRICITY RATE'\n   ** Warning ** In Output:Table:Monthly 'BoilerReportMonthly' invalid Variable or Meter Name 'BOILER PART LOAD RATIO'\n   ** Warning ** In Output:Table:Monthly 'BoilerReportMonthly' invalid Variable or Meter Name 'BOILER PART LOAD RATIO'\n   ** Warning ** In Output:Table:Monthly 'WindowACReportMonthly' invalid Variable or Meter Name 'ZONE WINDOW AIR CONDITIONER TOTAL COOLING ENERGY'\n   ** Warning ** In Output:Table:Monthly 'WindowACReportMonthly' invalid Variable or Meter Name 'ZONE WINDOW AIR CONDITIONER ELECTRICITY ENERGY'\n   ** Warning ** In Output:Table:Monthly 'WindowACReportMonthly' invalid Variable or Meter Name 'ZONE WINDOW AIR CONDITIONER TOTAL COOLING ENERGY'\n   ** Warning ** In Output:Table:Monthly 'WindowACReportMonthly' invalid Variable or Meter Name 'ZONE WINDOW AIR CONDITIONER SENSIBLE COOLING ENERGY'\n   ** Warning ** In Output:Table:Monthly 'WindowACReportMonthly' invalid Variable or Meter Name 'ZONE WINDOW AIR CONDITIONER LATENT COOLING ENERGY'\n   ** Warning ** In Output:Table:Monthly 'WindowACReportMonthly' invalid Variable or Meter Name 'ZONE WINDOW AIR CONDITIONER TOTAL COOLING RATE'\n   ** Warning ** In Output:Table:Monthly 'WindowACReportMonthly' invalid Variable or Meter Name 'ZONE WINDOW AIR CONDITIONER SENSIBLE COOLING RATE'\n   ** Warning ** In Output:Table:Monthly 'WindowACReportMonthly' invalid Variable or Meter Name 'ZONE WINDOW AIR CONDITIONER LATENT COOLING RATE'\n   ** Warning ** In Output:Table:Monthly 'WindowACReportMonthly' invalid Variable or Meter Name 'ZONE WINDOW AIR CONDITIONER ELECTRICITY RATE'\n   ** Warning ** In Output:Table:Monthly 'WaterHeaterReportMonthly' invalid Variable or Meter Name 'WATER HEATER TOTAL DEMAND HEAT TRANSFER ENERGY'\n   ** Warning ** In Output:Table:Monthly 'WaterHeaterReportMonthly' invalid Variable or Meter Name 'WATER HEATER USE SIDE HEAT TRANSFER ENERGY'\n   ** Warning ** In Output:Table:Monthly 'WaterHeaterReportMonthly' invalid Variable or Meter Name 'WATER HEATER BURNER HEATING ENERGY'\n   ** Warning ** In Output:Table:Monthly 'WaterHeaterReportMonthly' invalid Variable or Meter Name 'WATER HEATER GAS CONSUMPTION'\n   ** Warning ** In Output:Table:Monthly 'WaterHeaterReportMonthly' invalid Variable or Meter Name 'WATER HEATER TOTAL DEMAND HEAT TRANSFER ENERGY'\n   ** Warning ** In Output:Table:Monthly 'WaterHeaterReportMonthly' invalid Variable or Meter Name 'WATER HEATER LOSS DEMAND ENERGY'\n   ** Warning ** In Output:Table:Monthly 'WaterHeaterReportMonthly' invalid Variable or Meter Name 'WATER HEATER HEAT LOSS ENERGY'\n   ** Warning ** In Output:Table:Monthly 'WaterHeaterReportMonthly' invalid Variable or Meter Name 'WATER HEATER TANK TEMPERATURE'\n   ** Warning ** In Output:Table:Monthly 'WaterHeaterReportMonthly' invalid Variable or Meter Name 'WATER HEATER HEAT RECOVERY SUPPLY ENERGY'\n   ** Warning ** In Output:Table:Monthly 'WaterHeaterReportMonthly' invalid Variable or Meter Name 'WATER HEATER SOURCE ENERGY'\n   ** Warning ** In Output:Table:Monthly 'GeneratorReportMonthly' invalid Variable or Meter Name 'GENERATOR PRODUCED AC ELECTRICITY ENERGY'\n   ** Warning ** In Output:Table:Monthly 'GeneratorReportMonthly' invalid Variable or Meter Name 'GENERATOR DIESEL CONSUMPTION'\n   ** Warning ** In Output:Table:Monthly 'GeneratorReportMonthly' invalid Variable or Meter Name 'GENERATOR GAS CONSUMPTION'\n   ** Warning ** In Output:Table:Monthly 'GeneratorReportMonthly' invalid Variable or Meter Name 'GENERATOR PRODUCED AC ELECTRICITY ENERGY'\n   ** Warning ** In Output:Table:Monthly 'GeneratorReportMonthly' invalid Variable or Meter Name 'GENERATOR TOTAL HEAT RECOVERY'\n   ** Warning ** In Output:Table:Monthly 'GeneratorReportMonthly' invalid Variable or Meter Name 'GENERATOR JACKET HEAT RECOVERY ENERGY'\n   ** Warning ** In Output:Table:Monthly 'GeneratorReportMonthly' invalid Variable or Meter Name 'GENERATOR LUBE HEAT RECOVERY'\n   ** Warning ** In Output:Table:Monthly 'GeneratorReportMonthly' invalid Variable or Meter Name 'GENERATOR EXHAUST HEAT RECOVERY ENERGY'\n   ** Warning ** In Output:Table:Monthly 'GeneratorReportMonthly' invalid Variable or Meter Name 'GENERATOR EXHAUST AIR TEMPERATURE'\n   ** Warning ** In Output:Table:Monthly 'CoilReportMonthly' invalid Variable or Meter Name 'COOLING COIL WETTED AREA FRACTION'\n   ** Warning ** In Output:Table:Monthly 'PlantLoopDemandReportMonthly' invalid Variable or Meter Name 'PLANT SUPPLY SIDE COOLING DEMAND RATE'\n   ** Warning ** In Output:Table:Monthly 'PlantLoopDemandReportMonthly' invalid Variable or Meter Name 'PLANT SUPPLY SIDE COOLING DEMAND RATE'\n   ** Warning ** In Output:Table:Monthly 'PlantLoopDemandReportMonthly' invalid Variable or Meter Name 'PLANT SUPPLY SIDE HEATING DEMAND RATE'\n   ** Warning ** In Output:Table:Monthly 'PlantLoopDemandReportMonthly' invalid Variable or Meter Name 'PLANT SUPPLY SIDE HEATING DEMAND RATE'\n   ** Warning ** In Output:Table:Monthly 'PumpReportMonthly' invalid Variable or Meter Name 'PUMP ELECTRICITY ENERGY'\n   ** Warning ** In Output:Table:Monthly 'PumpReportMonthly' invalid Variable or Meter Name 'PUMP FLUID HEAT GAIN ENERGY'\n   ** Warning ** In Output:Table:Monthly 'PumpReportMonthly' invalid Variable or Meter Name 'PUMP ELECTRICITY RATE'\n   ** Warning ** In Output:Table:Monthly 'PumpReportMonthly' invalid Variable or Meter Name 'PUMP SHAFT POWER'\n   ** Warning ** In Output:Table:Monthly 'PumpReportMonthly' invalid Variable or Meter Name 'PUMP FLUID HEAT GAIN RATE'\n   ** Warning ** In Output:Table:Monthly 'PumpReportMonthly' invalid Variable or Meter Name 'PUMP OUTLET TEMPERATURE'\n   ** Warning ** In Output:Table:Monthly 'PumpReportMonthly' invalid Variable or Meter Name 'PUMP MASS FLOW RATE'\n   ** Warning ** In Output:Table:Monthly 'CondLoopDemandReportMonthly' invalid Variable or Meter Name 'PLANT SUPPLY SIDE COOLING DEMAND RATE'\n   ** Warning ** In Output:Table:Monthly 'CondLoopDemandReportMonthly' invalid Variable or Meter Name 'PLANT SUPPLY SIDE COOLING DEMAND RATE'\n   ** Warning ** In Output:Table:Monthly 'CondLoopDemandReportMonthly' invalid Variable or Meter Name 'PLANT SUPPLY SIDE INLET TEMPERATURE'\n   ** Warning ** In Output:Table:Monthly 'CondLoopDemandReportMonthly' invalid Variable or Meter Name 'PLANT SUPPLY SIDE OUTLET TEMPERATURE'\n   ** Warning ** In Output:Table:Monthly 'CondLoopDemandReportMonthly' invalid Variable or Meter Name 'PLANT SUPPLY SIDE HEATING DEMAND RATE'\n   ** Warning ** In Output:Table:Monthly 'CondLoopDemandReportMonthly' invalid Variable or Meter Name 'PLANT SUPPLY SIDE HEATING DEMAND RATE'\n   ** Warning ** In Output:Table:Monthly 'AirLoopSystemEnergyAndWaterUseMonthly' invalid Variable or Meter Name 'AIR SYSTEM NATURAL GAS ENERGY'\n   ** Warning ** In Output:Table:Monthly 'AirLoopSystemComponentEnergyUseMonthly' invalid Variable or Meter Name 'AIR SYSTEM HEATING COIL NATURAL GAS ENERGY'\n   ** Warning ** In Output:Table:Monthly 'AirLoopSystemComponentEnergyUseMonthly' invalid Variable or Meter Name 'AIR SYSTEM HUMIDIFIER NATURAL GAS ENERGY'\n   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed \"COIL COOLING DX SINGLE SPEED 2\" - Full load outlet air dry-bulb temperature < 2C. This indicates the possibility of coil frost/freeze. Outlet temperature = 1.78 C.\n   **   ~~~   **  ...Occurrence info = DENVER-AURORA-BUCKLEY.AFB_CO_USA ANN CLG .4% CONDNS DB=>MWB HVAC Sizing Pass 1, 07/21 00:00 - 00:10\n   **   ~~~   ** ... Possible reasons for low outlet air dry-bulb temperatures are: This DX coil\n   **   ~~~   **    1) may have a low inlet air dry-bulb temperature. Inlet air temperature = 23.663 C.\n   **   ~~~   **    2) may have a low air flow rate per watt of cooling capacity. Check inputs.\n   **   ~~~   **    3) is used as part of a HX assisted cooling coil which uses a high sensible effectiveness. Check inputs.\n   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed \"COIL COOLING DX SINGLE SPEED 4\" - Full load outlet air dry-bulb temperature < 2C. This indicates the possibility of coil frost/freeze. Outlet temperature = 2.00 C.\n   **   ~~~   **  ...Occurrence info = DENVER-AURORA-BUCKLEY.AFB_CO_USA ANN CLG .4% CONDNS DB=>MWB HVAC Sizing Pass 1, 07/21 00:30 - 00:40\n   **   ~~~   ** ... Possible reasons for low outlet air dry-bulb temperatures are: This DX coil\n   **   ~~~   **    1) may have a low inlet air dry-bulb temperature. Inlet air temperature = 23.601 C.\n   **   ~~~   **    2) may have a low air flow rate per watt of cooling capacity. Check inputs.\n   **   ~~~   **    3) is used as part of a HX assisted cooling coil which uses a high sensible effectiveness. Check inputs.\n   ************* Beginning Simulation\n   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed \"COIL COOLING DX SINGLE SPEED 1\" - Air-cooled condenser inlet dry-bulb temperature below 0 C. Outdoor dry-bulb temperature = -10.30\n   **   ~~~   **  ... Occurrence info = RUNPERIOD 1, 01/01 07:20 - 07:30\n   **   ~~~   ** ... Operation at low ambient temperatures may require special performance curves.\n   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed \"COIL COOLING DX SINGLE SPEED 1\" - Full load outlet air dry-bulb temperature < 2C. This indicates the possibility of coil frost/freeze. Outlet temperature = -11.54 C.\n   **   ~~~   **  ...Occurrence info = RUNPERIOD 1, 01/01 07:20 - 07:30\n   **   ~~~   ** ... Possible reasons for low outlet air dry-bulb temperatures are: This DX coil\n   **   ~~~   **    1) may have a low inlet air dry-bulb temperature. Inlet air temperature = 12.572 C.\n   **   ~~~   **    2) may have a low air flow rate per watt of cooling capacity. Check inputs.\n   **   ~~~   **    3) is used as part of a HX assisted cooling coil which uses a high sensible effectiveness. Check inputs.\n   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed \"COIL COOLING DX SINGLE SPEED 2\" - Air-cooled condenser inlet dry-bulb temperature below 0 C. Outdoor dry-bulb temperature = -9.45\n   **   ~~~   **  ... Occurrence info = RUNPERIOD 1, 01/01 08:03 - 08:07\n   **   ~~~   ** ... Operation at low ambient temperatures may require special performance curves.\n   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed \"COIL COOLING DX SINGLE SPEED 3\" - Air-cooled condenser inlet dry-bulb temperature below 0 C. Outdoor dry-bulb temperature = -9.45\n   **   ~~~   **  ... Occurrence info = RUNPERIOD 1, 01/01 08:03 - 08:07\n   **   ~~~   ** ... Operation at low ambient temperatures may require special performance curves.\n   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed \"COIL COOLING DX SINGLE SPEED 3\" - Full load outlet air dry-bulb temperature < 2C. This indicates the possibility of coil frost/freeze. Outlet temperature = -5.71 C.\n   **   ~~~   **  ...Occurrence info = RUNPERIOD 1, 01/01 08:03 - 08:07\n   **   ~~~   ** ... Possible reasons for low outlet air dry-bulb temperatures are: This DX coil\n   **   ~~~   **    1) may have a low inlet air dry-bulb temperature. Inlet air temperature = 13.821 C.\n   **   ~~~   **    2) may have a low air flow rate per watt of cooling capacity. Check inputs.\n   **   ~~~   **    3) is used as part of a HX assisted cooling coil which uses a high sensible effectiveness. Check inputs.\n   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed \"COIL COOLING DX SINGLE SPEED 5\" - Air-cooled condenser inlet dry-bulb temperature below 0 C. Outdoor dry-bulb temperature = -9.45\n   **   ~~~   **  ... Occurrence info = RUNPERIOD 1, 01/01 08:03 - 08:07\n   **   ~~~   ** ... Operation at low ambient temperatures may require special performance curves.\n   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed \"COIL COOLING DX SINGLE SPEED 5\" - Full load outlet air dry-bulb temperature < 2C. This indicates the possibility of coil frost/freeze. Outlet temperature = -8.64 C.\n   **   ~~~   **  ...Occurrence info = RUNPERIOD 1, 01/01 08:03 - 08:07\n   **   ~~~   ** ... Possible reasons for low outlet air dry-bulb temperatures are: This DX coil\n   **   ~~~   **    1) may have a low inlet air dry-bulb temperature. Inlet air temperature = 13.987 C.\n   **   ~~~   **    2) may have a low air flow rate per watt of cooling capacity. Check inputs.\n   **   ~~~   **    3) is used as part of a HX assisted cooling coil which uses a high sensible effectiveness. Check inputs.\n   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed \"COIL COOLING DX SINGLE SPEED 4\" - Air-cooled condenser inlet dry-bulb temperature below 0 C. Outdoor dry-bulb temperature = -8.90\n   **   ~~~   **  ... Occurrence info = RUNPERIOD 1, 01/01 08:13 - 08:17\n   **   ~~~   ** ... Operation at low ambient temperatures may require special performance curves.\n   ** Warning ** WetBulb not converged after 101 iterations(PsyTwbFnTdbWPb)\n   **   ~~~   **  Routine=Unknown, Environment=RUNPERIOD 1, at Simulation time=02/07 22:00 - 22:10\n   **   ~~~   **  Input Temperature = 6.69\n   **   ~~~   **  Input Humidity Ratio= 1.927576E-003\n   **   ~~~   **  Input Pressure = 82600.00\n   **   ~~~   **  Resultant Temperature= 5.56E-003\n   ** Warning ** Temperature out of range [-100. to 200.] (PsyPsatFnTemp)\n   **   ~~~   **  Routine=PsyTwbFnTdbWPb, Environment=RUNPERIOD 1, at Simulation time=02/09 10:50 - 10:52\n   **   ~~~   **  Input Temperature=-417.09\n   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= \"WEST  COMMERCIAL-ELECTRICITY\" has no energy cost. \n   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.\n   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= \"WEST  COMMERCIAL-DISTILLATE OIL\" has no energy cost. \n   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.\n   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= \"WEST  COMMERCIAL-RESIDUAL OIL\" has no energy cost. \n   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.\n   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= \"WEST  COMMERCIAL-NATURAL GAS\" has no energy cost. \n   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.\n   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= \"WEST  COMMERCIAL-COAL\" has no energy cost. \n   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.\n   ************* Simulation Error Summary *************\n   ************* There are 42 unused schedules in input.\n   ************* There are 9 unused week schedules in input.\n   ************* There are 20 unused day schedules in input.\n   ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.\n   *************\n   ************* ===== Recurring Error Summary =====\n   ************* The following recurring error messages occurred.\n   *************\n   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed=\"COIL COOLING DX SINGLE SPEED 2\" - Full load outlet temperature indicates a possibility of frost/freeze error continues. Outlet air temperature statistics follow:\n   *************  **   ~~~   **   This error occurred 23741 total times;\n   *************  **   ~~~   **   during Warmup 0 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************  **   ~~~   **   Max=1.999573  Min=-13.430176\n   *************\n   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed=\"COIL COOLING DX SINGLE SPEED 4\" - Full load outlet temperature indicates a possibility of frost/freeze error continues. Outlet air temperature statistics follow:\n   *************  **   ~~~   **   This error occurred 13705 total times;\n   *************  **   ~~~   **   during Warmup 0 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************  **   ~~~   **   Max=1.999997  Min=-12.288158\n   *************\n   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed=\"COIL COOLING DX SINGLE SPEED 1\" - Low condenser dry-bulb temperature error continues...\n   *************  **   ~~~   **   This error occurred 1000 total times;\n   *************  **   ~~~   **   during Warmup 0 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************  **   ~~~   **   Max=-1.110223E-016 [C]  Min=-20.4 [C]\n   *************\n   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed=\"COIL COOLING DX SINGLE SPEED 1\" - Full load outlet temperature indicates a possibility of frost/freeze error continues. Outlet air temperature statistics follow:\n   *************  **   ~~~   **   This error occurred 17951 total times;\n   *************  **   ~~~   **   during Warmup 0 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************  **   ~~~   **   Max=1.999042  Min=-12.588491\n   *************\n   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed=\"COIL COOLING DX SINGLE SPEED 2\" - Low condenser dry-bulb temperature error continues...\n   *************  **   ~~~   **   This error occurred 1273 total times;\n   *************  **   ~~~   **   during Warmup 0 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************  **   ~~~   **   Max=-1.110223E-016 [C]  Min=-20.4 [C]\n   *************\n   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed=\"COIL COOLING DX SINGLE SPEED 3\" - Low condenser dry-bulb temperature error continues...\n   *************  **   ~~~   **   This error occurred 627 total times;\n   *************  **   ~~~   **   during Warmup 0 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************  **   ~~~   **   Max=-1.110223E-016 [C]  Min=-20.4 [C]\n   *************\n   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed=\"COIL COOLING DX SINGLE SPEED 3\" - Full load outlet temperature indicates a possibility of frost/freeze error continues. Outlet air temperature statistics follow:\n   *************  **   ~~~   **   This error occurred 1384 total times;\n   *************  **   ~~~   **   during Warmup 0 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************  **   ~~~   **   Max=1.993625  Min=-5.986099\n   *************\n   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed=\"COIL COOLING DX SINGLE SPEED 5\" - Low condenser dry-bulb temperature error continues...\n   *************  **   ~~~   **   This error occurred 627 total times;\n   *************  **   ~~~   **   during Warmup 0 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************  **   ~~~   **   Max=-0.1 [C]  Min=-20.4 [C]\n   *************\n   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed=\"COIL COOLING DX SINGLE SPEED 5\" - Full load outlet temperature indicates a possibility of frost/freeze error continues. Outlet air temperature statistics follow:\n   *************  **   ~~~   **   This error occurred 8375 total times;\n   *************  **   ~~~   **   during Warmup 0 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************  **   ~~~   **   Max=1.999961  Min=-8.640634\n   *************\n   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed=\"COIL COOLING DX SINGLE SPEED 4\" - Low condenser dry-bulb temperature error continues...\n   *************  **   ~~~   **   This error occurred 295 total times;\n   *************  **   ~~~   **   during Warmup 0 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************  **   ~~~   **   Max=-0.1 [C]  Min=-20.4 [C]\n   *************\n   *************  ** Warning ** WetBulb not converged after max iterations(PsyTwbFnTdbWPb)\n   *************  **   ~~~   **   This error occurred 1 total times;\n   *************  **   ~~~   **   during Warmup 0 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************\n   *************  ** Warning ** Temperature out of range [-100. to 200.] (PsyPsatFnTemp)\n   *************  **   ~~~   **   This error occurred 1 total times;\n   *************  **   ~~~   **   during Warmup 0 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************  **   ~~~   **   Max=-417.09935 C  Min=-417.09935 C\n   *************\n   *************\n   ************* ===== Final Error Summary =====\n   ************* The following error categories occurred.  Consider correcting or noting.\n   ************* Nominally Unused Constructions\n   ************* ..The nominally unused constructions warning is provided to alert you to potential conditions that can cause\n   ************* ..extra time during simulation. Each construction is calculated by the algorithm indicated in the HeatBalanceAlgorithm\n   ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).\n   *************\n   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.\n   ************* EnergyPlus Sizing Error Summary. During Sizing: 13 Warning; 0 Severe Errors.\n   ************* EnergyPlus Completed Successfully-- 69422 Warning; 0 Severe Errors; Elapsed Time=00hr 00min 23.07sec\n",
+   "file_paths" : 
+   [
+      "/private/var/folders/_h/4373pvk125z9gq8hm6nw0tmd_0hcwf/T/osmodel-1646154303-1/resources/generated_files",
+      "./files",
+      "./weather",
+      "../../files",
+      "../../weather",
+      "./"
+   ],
+   "hash" : "50CD8F40",
+   "seed_file" : "../proto1.osm",
+   "started_at" : "20220302T162228Z",
+   "steps" : 
+   [
+      {
+         "arguments" : 
+         {
+            "batt_charge_power" : 30000,
+            "batt_discharge_power" : 50000,
+            "batt_initial_charge" : 1000000000,
+            "batt_storage_capacity" : 1680000000,
+            "parallel_modules" : 5,
+            "pv_len" : 26,
+            "pv_total_power" : 40000,
+            "pv_wid" : 10,
+            "series_modules" : 10
+         },
+         "description" : "Add batteries and PV generation to baseline building.  Add relevant controls.",
+         "measure_dir_name" : "add_batteries_and_pv",
+         "modeler_description" : "In an all-electric building, include on-site storage and generation for improved building resiliency.",
+         "name" : "Add Batteries and PV",
+         "result" : 
+         {
+            "completed_at" : "20220302T162228Z",
+            "measure_class_name" : "AddBatteriesAndPV",
+            "measure_display_name" : "Add Batteries and PV",
+            "measure_name" : "add_batteries_and_pv",
+            "measure_taxonomy" : "Onsite Power Generation.Photovoltaic",
+            "measure_type" : "EnergyPlusMeasure",
+            "measure_uid" : "fa85082e-7c41-4b49-a131-6e718dcc330d",
+            "measure_version_id" : "982065ab-e681-4890-84ea-2fc4ab8457a7",
+            "measure_version_modified" : "20220302T162223Z",
+            "measure_xml_checksum" : "907C3AEA",
+            "started_at" : "20220302T162228Z",
+            "stderr" : "",
+            "stdout" : "",
+            "step_errors" : [],
+            "step_files" : [],
+            "step_info" : [],
+            "step_result" : "Success",
+            "step_values" : 
+            [
+               {
+                  "name" : "batt_storage_capacity",
+                  "value" : 1680000000.0
+               },
+               {
+                  "name" : "batt_discharge_power",
+                  "value" : 50000.0
+               },
+               {
+                  "name" : "batt_charge_power",
+                  "value" : 30000.0
+               },
+               {
+                  "name" : "batt_initial_charge",
+                  "value" : 1000000000.0
+               },
+               {
+                  "name" : "pv_total_power",
+                  "value" : 40000.0
+               },
+               {
+                  "name" : "parallel_modules",
+                  "value" : 5
+               },
+               {
+                  "name" : "series_modules",
+                  "value" : 10
+               },
+               {
+                  "name" : "pv_len",
+                  "value" : 26.0
+               },
+               {
+                  "name" : "pv_wid",
+                  "value" : 10.0
+               }
+            ],
+            "step_warnings" : []
+         }
+      },
+      {
+         "arguments" : 
+         {
+            "units" : "SI"
+         },
+         "description" : "This measure creates high level tables and charts pulling both from model inputs and EnergyPlus results. It has building level information as well as detail on space types, thermal zones, HVAC systems, envelope characteristics, and economics. Click the heading above a chart to view a table of the chart data.",
+         "measure_dir_name" : "OpenStudioResults",
+         "modeler_description" : "For the most part consumption data comes from the tabular EnergyPlus results, however there are a few requests added for time series results. Space type and loop details come from the OpenStudio model. The code for this is modular, making it easy to use as a template for your own custom reports. The structure of the report uses bootstrap, and the graphs use dimple js. The new measure warning section will show warnings generated by upstream measures. It will not show forward translation warnings, EnergyPlus warnings, or warnings that might be reported by this measure.",
+         "name" : "OpenStudio Results",
+         "result" : 
+         {
+            "completed_at" : "20220302T162312Z",
+            "measure_class_name" : "OpenStudioResults",
+            "measure_display_name" : "OpenStudio Results",
+            "measure_name" : "openstudio_results",
+            "measure_taxonomy" : "Reporting.QAQC",
+            "measure_type" : "ReportingMeasure",
+            "measure_uid" : "a25386cd-60e4-46bc-8b11-c755f379d916",
+            "measure_version_id" : "da737820-833d-4734-8131-f962d58ea8e2",
+            "measure_version_modified" : "20210423T144543Z",
+            "measure_xml_checksum" : "557BF06F",
+            "started_at" : "20220302T162259Z",
+            "stderr" : "",
+            "stdout" : "",
+            "step_errors" : [],
+            "step_files" : 
+            [
+               "/private/var/folders/_h/4373pvk125z9gq8hm6nw0tmd_0hcwf/T/osmodel-1646154303-1/resources/run/001_OpenStudioResults/report.html"
+            ],
+            "step_final_condition" : "Generated report with 22 sections to ./report.html.",
+            "step_info" : [],
+            "step_initial_condition" : "Gathering data from EnergyPlus SQL file and OSM model. Will report in SI Units",
+            "step_result" : "Success",
+            "step_values" : 
+            [
+               {
+                  "name" : "units",
+                  "value" : "SI"
+               },
+               {
+                  "name" : "building_summary_section",
+                  "value" : true
+               },
+               {
+                  "name" : "annual_overview_section",
+                  "value" : true
+               },
+               {
+                  "name" : "monthly_overview_section",
+                  "value" : true
+               },
+               {
+                  "name" : "utility_bills_rates_section",
+                  "value" : true
+               },
+               {
+                  "name" : "envelope_section_section",
+                  "value" : true
+               },
+               {
+                  "name" : "space_type_breakdown_section",
+                  "value" : true
+               },
+               {
+                  "name" : "space_type_details_section",
+                  "value" : true
+               },
+               {
+                  "name" : "interior_lighting_section",
+                  "value" : true
+               },
+               {
+                  "name" : "plug_loads_section",
+                  "value" : true
+               },
+               {
+                  "name" : "exterior_light_section",
+                  "value" : true
+               },
+               {
+                  "name" : "water_use_section",
+                  "value" : true
+               },
+               {
+                  "name" : "hvac_load_profile",
+                  "value" : true
+               },
+               {
+                  "name" : "zone_condition_section",
+                  "value" : true
+               },
+               {
+                  "name" : "zone_summary_section",
+                  "value" : true
+               },
+               {
+                  "name" : "zone_equipment_detail_section",
+                  "value" : true
+               },
+               {
+                  "name" : "air_loops_detail_section",
+                  "value" : true
+               },
+               {
+                  "name" : "plant_loops_detail_section",
+                  "value" : true
+               },
+               {
+                  "name" : "outdoor_air_section",
+                  "value" : true
+               },
+               {
+                  "name" : "cost_summary_section",
+                  "value" : true
+               },
+               {
+                  "name" : "source_energy_section",
+                  "value" : true
+               },
+               {
+                  "name" : "schedules_overview_section",
+                  "value" : true
+               },
+               {
+                  "name" : "measure_warning_section",
+                  "value" : true
+               },
+               {
+                  "name" : "reg_monthly_details",
+                  "value" : false
+               },
+               {
+                  "name" : "standards_gem_version",
+                  "value" : "0.2.15"
+               },
+               {
+                  "name" : "workflow_gem_version",
+                  "value" : "2.3.1"
+               },
+               {
+                  "display_name" : "OfficeSmall",
+                  "name" : "building_name",
+                  "value" : "n/a"
+               },
+               {
+                  "name" : "total_site_energy",
+                  "units" : "kWh",
+                  "value" : 81344.444444444453
+               },
+               {
+                  "name" : "net_site_energy",
+                  "units" : "kWh",
+                  "value" : 27716.666666666668
+               },
+               {
+                  "name" : "total_building_area",
+                  "units" : "m^2",
+                  "value" : 511.16000000000003
+               },
+               {
+                  "name" : "total_site_eui",
+                  "units" : "kWh/m^2",
+                  "value" : 159.13695211762354
+               },
+               {
+                  "name" : "eui",
+                  "units" : "kWh/m^2",
+                  "value" : 54.223074314630765
+               },
+               {
+                  "name" : "unmet_hours_during_heating",
+                  "units" : "hr",
+                  "value" : 9.6699999999999999
+               },
+               {
+                  "name" : "unmet_hours_during_cooling",
+                  "units" : "hr",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "unmet_hours_during_occupied_heating",
+                  "units" : "hr",
+                  "value" : 9.6699999999999999
+               },
+               {
+                  "name" : "unmet_hours_during_occupied_cooling",
+                  "units" : "hr",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "unmet_hours_tolerance_heating",
+                  "units" : "K",
+                  "value" : 0.20000000000000001
+               },
+               {
+                  "name" : "unmet_hours_tolerance_cooling",
+                  "units" : "K",
+                  "value" : 0.20000000000000001
+               },
+               {
+                  "name" : "end_use_heating",
+                  "units" : "kWh",
+                  "value" : 6100.0
+               },
+               {
+                  "name" : "end_use_cooling",
+                  "units" : "kWh",
+                  "value" : 7136.1111111111113
+               },
+               {
+                  "name" : "end_use_interior_lighting",
+                  "units" : "kWh",
+                  "value" : 25619.444444444445
+               },
+               {
+                  "name" : "end_use_exterior_lighting",
+                  "units" : "kWh",
+                  "value" : 1577.7777777777778
+               },
+               {
+                  "name" : "end_use_interior_equipment",
+                  "units" : "kWh",
+                  "value" : 26788.888888888887
+               },
+               {
+                  "name" : "end_use_exterior_equipment",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "end_use_fans",
+                  "units" : "kWh",
+                  "value" : 14119.444444444443
+               },
+               {
+                  "name" : "end_use_pumps",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "end_use_heat_rejection",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "end_use_humidification",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "end_use_heat_recovery",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "end_use_water_systems",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "end_use_refrigeration",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "end_use_generators",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "fuel_electricity",
+                  "units" : "kBtu",
+                  "value" : 277558.76551255182
+               },
+               {
+                  "name" : "fuel_natural_gas",
+                  "units" : "kBtu",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "fuel_gasoline",
+                  "units" : "kBtu",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "fuel_diesel",
+                  "units" : "kBtu",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "fuel_coal",
+                  "units" : "kBtu",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "fuel_fuel_oil_no_1",
+                  "units" : "kBtu",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "fuel_fuel_oil_no_2",
+                  "units" : "kBtu",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "fuel_propane",
+                  "units" : "kBtu",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "fuel_other_fuel_1",
+                  "units" : "kBtu",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "fuel_other_fuel_2",
+                  "units" : "kBtu",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "fuel_district_cooling",
+                  "units" : "kBtu",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "fuel_district_heating",
+                  "units" : "kBtu",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "end_use_electricity_heating",
+                  "units" : "kWh",
+                  "value" : 6100.0
+               },
+               {
+                  "name" : "end_use_electricity_cooling",
+                  "units" : "kWh",
+                  "value" : 7136.1111111111113
+               },
+               {
+                  "name" : "end_use_electricity_interior_lighting",
+                  "units" : "kWh",
+                  "value" : 25619.444444444445
+               },
+               {
+                  "name" : "end_use_electricity_exterior_lighting",
+                  "units" : "kWh",
+                  "value" : 1577.7777777777778
+               },
+               {
+                  "name" : "end_use_electricity_interior_equipment",
+                  "units" : "kWh",
+                  "value" : 26788.888888888887
+               },
+               {
+                  "name" : "end_use_electricity_exterior_equipment",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "end_use_electricity_fans",
+                  "units" : "kWh",
+                  "value" : 14119.444444444443
+               },
+               {
+                  "name" : "end_use_electricity_pumps",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "end_use_electricity_heat_rejection",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "end_use_electricity_humidification",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "end_use_electricity_heat_recovery",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "end_use_electricity_water_systems",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "end_use_electricity_refrigeration",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "end_use_electricity_generators",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "end_use_natural_gas_heating",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "end_use_natural_gas_cooling",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "end_use_natural_gas_interior_lighting",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "end_use_natural_gas_exterior_lighting",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "end_use_natural_gas_interior_equipment",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "end_use_natural_gas_exterior_equipment",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "end_use_natural_gas_fans",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "end_use_natural_gas_pumps",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "end_use_natural_gas_heat_rejection",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "end_use_natural_gas_humidification",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "end_use_natural_gas_heat_recovery",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "end_use_natural_gas_water_systems",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "end_use_natural_gas_refrigeration",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "end_use_natural_gas_generators",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "electricity_heating_ip",
+                  "units" : "kWh",
+                  "value" : 6100.5084979333342
+               },
+               {
+                  "name" : "electricity_cooling_ip",
+                  "units" : "kWh",
+                  "value" : 7137.2422222222222
+               },
+               {
+                  "name" : "electricity_interior_lighting_ip",
+                  "units" : "kWh",
+                  "value" : 25620.297222222223
+               },
+               {
+                  "name" : "electricity_exterior_lighting_ip",
+                  "units" : "kWh",
+                  "value" : 1578.6772222222223
+               },
+               {
+                  "name" : "electricity_interior_equipment_ip",
+                  "units" : "kWh",
+                  "value" : 26788.150000000001
+               },
+               {
+                  "name" : "electricity_exterior_equipment_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "electricity_fans_ip",
+                  "units" : "kWh",
+                  "value" : 14120.330555555556
+               },
+               {
+                  "name" : "electricity_pumps_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "electricity_heat_rejection_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "electricity_humidification_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "electricity_heat_recovery_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "electricity_water_systems_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "electricity_refrigeration_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "electricity_generators_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "electricity_ip",
+                  "units" : "kWh",
+                  "value" : 81345.205720155558
+               },
+               {
+                  "name" : "natural_gas_heating_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "natural_gas_cooling_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "natural_gas_interior_lighting_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "natural_gas_exterior_lighting_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "natural_gas_interior_equipment_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "natural_gas_exterior_equipment_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "natural_gas_fans_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "natural_gas_pumps_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "natural_gas_heat_rejection_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "natural_gas_humidification_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "natural_gas_heat_recovery_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "natural_gas_water_systems_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "natural_gas_refrigeration_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "natural_gas_generators_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "natural_gas_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "gasoline_heating_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "gasoline_cooling_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "gasoline_interior_lighting_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "gasoline_exterior_lighting_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "gasoline_interior_equipment_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "gasoline_exterior_equipment_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "gasoline_fans_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "gasoline_pumps_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "gasoline_heat_rejection_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "gasoline_humidification_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "gasoline_heat_recovery_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "gasoline_water_systems_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "gasoline_refrigeration_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "gasoline_generators_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "gasoline_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "diesel_heating_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "diesel_cooling_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "diesel_interior_lighting_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "diesel_exterior_lighting_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "diesel_interior_equipment_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "diesel_exterior_equipment_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "diesel_fans_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "diesel_pumps_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "diesel_heat_rejection_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "diesel_humidification_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "diesel_heat_recovery_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "diesel_water_systems_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "diesel_refrigeration_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "diesel_generators_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "diesel_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "coal_heating_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "coal_cooling_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "coal_interior_lighting_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "coal_exterior_lighting_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "coal_interior_equipment_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "coal_exterior_equipment_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "coal_fans_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "coal_pumps_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "coal_heat_rejection_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "coal_humidification_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "coal_heat_recovery_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "coal_water_systems_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "coal_refrigeration_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "coal_generators_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "coal_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "fuel_oil_no_1_heating_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "fuel_oil_no_1_cooling_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "fuel_oil_no_1_interior_lighting_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "fuel_oil_no_1_exterior_lighting_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "fuel_oil_no_1_interior_equipment_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "fuel_oil_no_1_exterior_equipment_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "fuel_oil_no_1_fans_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "fuel_oil_no_1_pumps_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "fuel_oil_no_1_heat_rejection_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "fuel_oil_no_1_humidification_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "fuel_oil_no_1_heat_recovery_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "fuel_oil_no_1_water_systems_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "fuel_oil_no_1_refrigeration_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "fuel_oil_no_1_generators_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "fuel_oil_no_1_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "fuel_oil_no_2_heating_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "fuel_oil_no_2_cooling_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "fuel_oil_no_2_interior_lighting_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "fuel_oil_no_2_exterior_lighting_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "fuel_oil_no_2_interior_equipment_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "fuel_oil_no_2_exterior_equipment_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "fuel_oil_no_2_fans_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "fuel_oil_no_2_pumps_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "fuel_oil_no_2_heat_rejection_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "fuel_oil_no_2_humidification_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "fuel_oil_no_2_heat_recovery_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "fuel_oil_no_2_water_systems_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "fuel_oil_no_2_refrigeration_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "fuel_oil_no_2_generators_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "fuel_oil_no_2_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "propane_heating_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "propane_cooling_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "propane_interior_lighting_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "propane_exterior_lighting_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "propane_interior_equipment_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "propane_exterior_equipment_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "propane_fans_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "propane_pumps_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "propane_heat_rejection_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "propane_humidification_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "propane_heat_recovery_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "propane_water_systems_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "propane_refrigeration_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "propane_generators_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "propane_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "other_fuel_1_heating_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "other_fuel_1_cooling_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "other_fuel_1_interior_lighting_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "other_fuel_1_exterior_lighting_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "other_fuel_1_interior_equipment_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "other_fuel_1_exterior_equipment_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "other_fuel_1_fans_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "other_fuel_1_pumps_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "other_fuel_1_heat_rejection_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "other_fuel_1_humidification_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "other_fuel_1_heat_recovery_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "other_fuel_1_water_systems_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "other_fuel_1_refrigeration_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "other_fuel_1_generators_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "other_fuel_1_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "other_fuel_2_heating_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "other_fuel_2_cooling_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "other_fuel_2_interior_lighting_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "other_fuel_2_exterior_lighting_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "other_fuel_2_interior_equipment_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "other_fuel_2_exterior_equipment_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "other_fuel_2_fans_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "other_fuel_2_pumps_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "other_fuel_2_heat_rejection_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "other_fuel_2_humidification_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "other_fuel_2_heat_recovery_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "other_fuel_2_water_systems_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "other_fuel_2_refrigeration_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "other_fuel_2_generators_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "other_fuel_2_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "district_cooling_heating_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "district_cooling_cooling_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "district_cooling_interior_lighting_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "district_cooling_exterior_lighting_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "district_cooling_interior_equipment_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "district_cooling_exterior_equipment_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "district_cooling_fans_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "district_cooling_pumps_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "district_cooling_heat_rejection_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "district_cooling_humidification_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "district_cooling_heat_recovery_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "district_cooling_water_systems_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "district_cooling_refrigeration_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "district_cooling_generators_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "district_cooling_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "district_heating_heating_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "district_heating_cooling_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "district_heating_interior_lighting_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "district_heating_exterior_lighting_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "district_heating_interior_equipment_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "district_heating_exterior_equipment_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "district_heating_fans_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "district_heating_pumps_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "district_heating_heat_rejection_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "district_heating_humidification_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "district_heating_heat_recovery_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "district_heating_water_systems_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "district_heating_refrigeration_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "district_heating_generators_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "district_heating_ip",
+                  "units" : "kWh",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "attic_roof_deck",
+                  "units" : "m^2",
+                  "value" : 598.76168117984969
+               },
+               {
+                  "name" : "ext_soffit_floor",
+                  "units" : "m^2",
+                  "value" : 56.819999999999901
+               },
+               {
+                  "name" : "nonres_ext_wall",
+                  "units" : "m^2",
+                  "value" : 217.92945231999997
+               },
+               {
+                  "name" : "swinging_door_con",
+                  "units" : "m^2",
+                  "value" : 3.9019276799999947
+               },
+               {
+                  "name" : "window_u_0_38_shgc_0_38",
+                  "units" : "m^2",
+                  "value" : 59.683619999999991
+               },
+               {
+                  "name" : "gross_window_wall_ratio",
+                  "units" : "%",
+                  "value" : 21.199999999999999
+               },
+               {
+                  "name" : "gross_window_wall_ratio_conditioned",
+                  "units" : "%",
+                  "value" : 21.199999999999999
+               },
+               {
+                  "name" : "skylight_roof_ratio",
+                  "units" : "%",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "space_type_189_1_2009_office_whole_building_sm_office_cz_1_3",
+                  "units" : "m^2",
+                  "value" : 511.15740000000011
+               },
+               {
+                  "name" : "zone_max_hours_over_70_rh",
+                  "units" : "hr",
+                  "value" : 2736.0
+               },
+               {
+                  "name" : "zone_max_hours_over_55_rh",
+                  "units" : "hr",
+                  "value" : 3871.0
+               },
+               {
+                  "name" : "num_zones_x_hours_over_70",
+                  "units" : "zones",
+                  "value" : 1
+               },
+               {
+                  "name" : "num_zones_x_hours_over_55",
+                  "units" : "zones",
+                  "value" : 6
+               },
+               {
+                  "name" : "inflation_approach",
+                  "value" : "Constant Dollar"
+               },
+               {
+                  "name" : "analysis_length",
+                  "units" : "yrs",
+                  "value" : 25
+               },
+               {
+                  "name" : "number_of_measures_with_warnings",
+                  "value" : 0
+               },
+               {
+                  "name" : "number_warnings",
+                  "value" : 0
+               },
+               {
+                  "name" : "annual_peak_electric_demand",
+                  "units" : "kW",
+                  "value" : 48.513760000000005
+               },
+               {
+                  "name" : "first_year_capital_cost",
+                  "units" : "$",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "annual_utility_cost",
+                  "units" : "$",
+                  "value" : 0.0
+               },
+               {
+                  "name" : "total_lifecycle_cost",
+                  "units" : "$",
+                  "value" : 0.0
+               }
+            ],
+            "step_warnings" : []
+         }
+      }
+   ],
+   "updated_at" : "20220302T162313Z",
+   "weather_file" : "USA_CO_Boulder-Broomfield-Jefferson.County.AP.724699_TMY3.epw"
+}
